@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questions"
+
+    android:background="@drawable/light"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarqsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fontcolor1"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/advent_pro_thin"
+            android:text="@string/test_time"
+            android:textSize="@dimen/kjdk"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/testhomebtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mainqestion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/garyo"
+
+            android:layout_marginTop="@dimen/sarai"
+            android:background="@drawable/categoryback"
+            android:fontFamily="@font/advent_pro_thin"
+            android:padding="@dimen/tango"
+            android:text="@string/number_1"
+            android:textColor="@color/abblack"
+            android:textSize="@dimen/lola"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/mainnumberindicate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/he"
+            android:layout_marginBottom="@dimen/hydrogen"
+            android:gravity="center"
+            android:text="@string/_5_10"
+            android:textColor="@color/basicwhite"
+            android:textSize="@dimen/jhk"
+            android:textStyle="bold"
+            android:fontFamily="@font/advent_pro_thin"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/options_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/hjl"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sss"
+                android:layout_marginTop="@dimen/ss"
+                android:layout_marginRight="@dimen/s"
+                android:background="@drawable/categoryback"
+                android:text="@string/buttonv"
+                android:textColor="@color/abblack"
+                android:textSize="@dimen/hg"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sss"
+                android:layout_marginTop="@dimen/ss"
+                android:layout_marginRight="@dimen/s"
+                android:background="@drawable/categoryback"
+                android:text="Button"
+                android:textColor="@color/abblack"
+                android:textStyle="bold"
+                android:textSize="@dimen/hg"
+
+
+               />
+
+            <Button
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/bvc"
+                android:layout_marginTop="@dimen/ss"
+                android:layout_marginRight="@dimen/s"
+                android:background="@drawable/categoryback"
+                android:text="@string/buttonb"
+                android:textColor="@color/abblack"
+                android:textStyle="bold"
+                android:textSize="@dimen/sa"
+                />
+
+            <Button
+                android:id="@+id/option44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sss"
+                android:layout_marginTop="@dimen/ss"
+                android:layout_marginRight="@dimen/s"
+                android:background="@drawable/categoryback"
+                android:text="@string/button"
+                android:textColor="@color/abblack"
+                android:textStyle="bold"
+                android:textSize="@dimen/xx"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/jh"
+            android:layout_marginLeft="@dimen/sd"
+            android:layout_marginTop="@dimen/zzzz"
+            android:layout_marginRight="@dimen/zzz"
+            android:layout_marginBottom="@dimen/z"
+            android:alpha="0.7"
+            android:background="@drawable/rounded_corners"
+            android:enabled="false"
+            android:fontFamily="@font/advent_pro_thin"
+            android:text="@string/next"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".score">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/PANSAYA"
+        android:background="@color/fontcolor1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/SATHI"
+            android:layout_marginBottom="@dimen/TES"
+            android:text="@string/score"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/PAITALIS"
+            android:textColor="@color/basicwhite"
+            android:fontFamily="@font/advent_pro_thin"/>
+
+        <TextView
+            android:id="@+id/scored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/TEYDUG"
+            android:fontFamily="@font/advent_pro_thin"
+            android:gravity="center"
+            android:text="@string/_5"
+            android:textColor="@color/basicwhite"
+            android:textSize="@dimen/DKFM"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/out_of"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/DHJ"
+            android:textColor="@color/basicwhite"
+            android:fontFamily="@font/advent_pro_thin"/>
+
+        <TextView
+            android:id="@+id/outoftotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_10"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/STFWY"
+            android:textColor="@color/basicwhite"
+            android:fontFamily="@font/advent_pro_thin"
+            android:layout_marginTop="@dimen/GSA"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/YTS"
+        android:orientation="vertical"
+        android:background="@drawable/unnamed">
+
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_width="match_parent"
+
+            android:layout_height="@dimen/HDNS"
+
+            android:layout_marginLeft="@dimen/WTY"
+            android:layout_marginTop="@dimen/TRWEQY"
+            android:layout_marginRight="@dimen/RWQ"
+            android:background="@drawable/rounded_corners"
+
+            android:text="DONE" />
+        <Button
+            android:id="@+id/shhh_btn"
+            android:layout_width="match_parent"
+
+            android:layout_height="@dimen/UYTE"
+
+            android:layout_marginLeft="@dimen/WQR"
+            android:layout_marginTop="@dimen/UWDE"
+            android:layout_marginRight="@dimen/TIS"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="@color/RATO"
+
+            android:text="@string/share" />
+    </LinearLayout>
+</RelativeLayout>

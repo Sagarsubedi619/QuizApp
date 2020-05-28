@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin"
+    android:background="@drawable/unnamed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/KSHDJ"
+        android:layout_marginTop="@dimen/HDGF"
+        android:layout_marginRight="@dimen/HJDGK"
+        android:layout_marginBottom="@dimen/YEW"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/TestHome1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/UIUER"
+            android:gravity="center"
+            android:padding="@dimen/YY"
+            android:text="Test-Time"
+            android:textColor="@color/fontcolor1"
+            android:textSize="@dimen/TSTS"
+            app:fontFamily="@font/advent_pro_thin"
+            android:textStyle="bold"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/RW"
+            android:gravity="center"
+            android:padding="@dimen/REQW"
+            android:text="@string/BELOW"
+            android:textColor="@color/fontcolor1"
+            android:textSize="@dimen/YEEHS"
+            app:fontFamily="@font/advent_pro_thin"
+            android:textStyle="bold"
+            />
+
+        <EditText
+
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/edittextcolor"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/EX"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@color/edittextcolor"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/ASTRICK"
+            android:inputType="textPassword"
+            android:padding="@dimen/TENNN" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/REM"
+            android:background="@color/edittextcolor"
+            android:id="@+id/ceckbox"/>
+
+
+
+        <Button
+            android:id="@+id/RealSignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/IWEIU"
+            android:background="@color/BLACKY"
+
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/signin"
+            android:textStyle="bold"
+            android:textColor="@color/fontcolor1"
+            android:textSize="@dimen/UI"
+            app:fontFamily="@font/advent_pro_thin"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

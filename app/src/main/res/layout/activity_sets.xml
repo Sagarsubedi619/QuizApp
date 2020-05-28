@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetsActivity"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/edittextcolor"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sets"
+        android:textSize="@dimen/YEY"
+        android:textStyle="bold"
+        android:textColor="@color/abblack"
+        android:padding="@dimen/TEM"
+        android:fontFamily="@font/advent_pro_thin"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/RENG"
+        android:layout_weight="1"
+        android:columnWidth="@dimen/SAYABISA"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/SORA"
+        android:verticalSpacing="@dimen/SORAA"/>
+</LinearLayout>

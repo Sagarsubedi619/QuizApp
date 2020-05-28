@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="mainColor">#36DBF0</color>
+    <color name="fontcolor1">#F5F1A83C</color>
+    <color name="abblack">#000000</color>
+    <color name="edittextcolor">#DDAB62</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="basicwhite">#fff</color>
+    <color name="migh">#EEBF70</color>
+    <color name="BLACKY">#CD2E2D2D</color>
+    <color name="RATO">#B63B3B</color>
+    <color name="KALO">#CD2E2D2D</color>
+    <color name="SETO">#fff</color>
+</resources>

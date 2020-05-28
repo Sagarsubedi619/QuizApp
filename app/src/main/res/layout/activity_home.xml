@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/ok"
+    android:background="@drawable/unnamed">
+
+    <TextView
+
+        android:id="@+id/bundlerec"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/thre"
+        android:text="@string/hi_man"
+        android:textSize="@dimen/oip"
+        android:textColor="@color/fontcolor1"
+        android:layout_marginBottom="@dimen/ten"
+        android:fontFamily="@font/advent_pro_thin"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_weight="2"
+        android:id="@+id/framelayout"
+        android:background="@drawable/light"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/oop"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/ooo">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ui"
+            android:layout_marginTop="@dimen/u"
+            android:background="@color/edittextcolor"
+            android:src="@drawable/instruction"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:id="@+id/details"
+            android:textStyle="bold"
+            android:textColor="@color/fontcolor1"
+            android:background="@color/abblack"
+            android:fontFamily="@font/advent_pro_thin"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/er"
+            android:layout_marginTop="@dimen/zz"
+            android:background="@color/edittextcolor"
+            android:src="@drawable/play"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:textSize="@dimen/aa"
+            android:id="@+id/play"
+            android:textStyle="bold"
+            android:textColor="@color/fontcolor1"
+            android:background="@color/abblack"
+            android:fontFamily="@font/advent_pro_thin"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/qqq"
+            android:layout_marginTop="@dimen/tw"
+            android:background="@color/edittextcolor"
+            android:src="@drawable/me" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me"
+            android:id="@+id/picture"
+            android:textStyle="bold"
+            android:textColor="@color/fontcolor1"
+            android:background="@color/abblack"
+            android:fontFamily="@font/advent_pro_thin"
+
+            />
+
+
+</LinearLayout>
+</LinearLayout>
