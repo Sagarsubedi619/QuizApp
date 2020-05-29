@@ -2,7 +2,6 @@
 /*
 Name: Sagar Subedi
 Date: March 30 2020
-Professor: Dr. Rhonda Ficek
 
 Description: This is a simple quiz app . Varieties of features that we learned till today like bundles, shared preference, fragments,SQLite Databse etc..
              are being applied while making this app.
